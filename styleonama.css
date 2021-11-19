@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*background: linear-gradient(rgb(56, 42, 255), rgb(20, 250, 135));*/
+    background-image: url("img/slikaMojPredlog.jpg");
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    /*blur*/
+    backdrop-filter: blur(5px);
+}
+
+.Zaglavlje{
+    background: rgb(16, 16, 83);
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    /* margin: 0 auto;
+    padding: 0; */
+}
+
+.Zaglavlje:hover{
+    color: rgb(212, 212, 63);
+}
+
+.Zaglavlje h1{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 100px;
+}
+
+.Naslovi{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 70px 60px 70px 60px;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+    /*background: rgb(35, 35, 170);*/
+    background: rgba(167, 167, 167, 0.6   )/*rgb(99, 99, 99)*/;
+}
+
+.Naslovi:hover{
+    background-color: rgb(212, 212, 63);
+}
+
+.Naslovi p{
+    padding: 10px;
+    color: #fff;
+    text-align: justify;
+    font-weight: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+    
+}
+
+

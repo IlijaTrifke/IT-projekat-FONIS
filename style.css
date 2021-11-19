@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    z-index: -10;
+    background-image: url("img/slikaMojPredlog.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    backdrop-filter: blur(5px);
+    backdrop-filter: brightness(25%);
+  
+    font-size: 1.3rem;
+  }
+  
+  .todoapp {
+    position: absolute;
+    padding: 10%;
+  
+
+    top: 50px;
+    bottom: 0;
+    
+  }
+  .container {
+    top: 30%;
+    position: center;
+    padding: 10%;
+    width: 80%;
+
+    color: aliceblue;
+    text-shadow: 1px 1px rgb(12, 12, 12);
+  }
+  h1 {
+    margin-top: 12rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: var(--righteous-font);
+  }
+  
+  .lead {
+    font-size: 1.5rem;
+    font-family: var(--righteous-font);
+  }
+  ul {
+    margin-top: 2rem;
+    list-style: none;
+    padding: 2%;
+  
+  }
+  li {
+    border-bottom: 1px solid white;
+    padding: 0.5rem 0 0.5rem 0;
+    margin: 0 1rem 0 1rem;
+  }
+  .checkboxes {
+    float: right;
+    line-height: 15px;
+    width: 17px;
+    height: 17px;
+    background-color: #e9ecef;
+  }
+  #input::placeholder {
+    color: rgb(51, 51, 51);
+  }
+  #input {
+    color: #000000;
+  }
+  
+  .dugme {
+    padding: 1em;
+    border: 4px solid darkgray;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #btnClr {
+    position: relative;
+    width: 50%;
+    background-color: rgb(218, 79, 45);
+    border-color: rgb(219, 54, 13);
+  }
+  #btn {
+    background-color: rgb(224, 135, 2);
+    border-color: rgb(177, 120, 35);
+  }
+  .navigacija ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+  }
+  .navigacija li {
+    float: left;
+  }
+  
+  .navigacija li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navigacija li a:hover:not(.active) {
+    color: #ffffff;
+    transform: scale(1.2);
+    transition: all 200ms ease-in !important;
+  }
+  
+  .navigacija .active {
+    background-color: #04aa6d;
+  }

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.zaglavlje{
+    background: linear-gradient(to bottom, black, orangered);
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.zaglavlje h1{
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
+
+body{
+    height: 100vh;
+    font-family: sans-serif;
+    /*background: linear-gradient(rgb(56, 42, 255), rgb(20, 250, 135));*/
+    background-image: url("img/slikaMojPredlog.jpg");
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    /*blur*/
+    backdrop-filter: blur(5px);
+    backdrop-filter: brightness(25%);
+}
+
+.kartice{
+    width: 1600px;
+    margin: 0 auto;
+    padding: 5% 5%;
+    
+}
+
+.kartice img{
+    margin-top: 50px;
+    width: 85%;
+    margin-left: 1.5vw;
+
+}
+
+.kartice .slike{
+    cursor: pointer;
+    float: left;
+    width: calc((100% - 200px) / 4);
+    height: 600px;
+    margin-bottom: 10px;
+    
+}
+
+
+.kartice .slike:not(:last-child){
+    margin-right: 50px;
+} 
+
+.kartice .slike:hover{
+   
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6)/*rgb(99, 99, 99)*/;
+}
+
+.kartice .slike h3{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top, black, orangered);
+    width: 100%;
+    height: 50px;
+}
+
+.slike p{
+    font-family: sans-serif;
+    color: #fff;
+    text-align: justify;
+    text-shadow: 1px 1px black;
+}
+.slikablur{
+    filter: blur(1px);
+    
+
+}
+.slike:hover  .slikablur{
+
+    filter: blur(0px);}
+    
+
+
+

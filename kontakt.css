@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.animacija {
+    animation-duration: 5s;
+  animation-name: slidein;
+  font-size: 20px;
+  font-family: sans-serif;
+   color: white;
+  }
+@keyframes slidein {
+    from {
+        margin-top: 20px;
+      margin-left: 80%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 80%;
+    }
+  }
+body{
+    font-family: sans-serif;
+   /* background: linear-gradient(to bottom, hsl(175, 80%, 52%), #d3e5e6);*/
+    background-image: url("img/slikaMojPredlog.jpg");
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    /*blur
+    backdrop-filter: blur(5px);*/
+    
+}
+
+.elementi{
+    width: 1000px;
+    margin: 0 auto;
+   padding: 1% 2%;
+   
+   
+    
+}
+
+.elementi img{
+    margin-top: 100px;
+    width: 150%;
+    height: 40%;
+    border-radius: 50%;
+    
+}
+
+.elementi .slike{
+    cursor: pointer;
+    float: left;
+    width: calc((100% - 200px) / 5);
+    height: 450px;
+    margin-bottom: 100px;
+
+}
+
+ .elementi .slike:not(:last-child){
+    margin-right: 40px;
+} 
+
+.elementi .slike:hover{
+    /*border: 2px solid white;*/
+    border-radius: 40px;
+    /*background-color:white;*/
+    
+    
+}
+
+.elementi .slike h3{
+    font-size: 30px;
+    color:darkgray;
+    text-shadow: 2px 2px black;
+}
+
+
+
+.slike p{
+    font-family: sans-serif;
+    color: #fff;
+}
+.san img{
+   position: center;
+    width:50%;
+}
+.slike img:hover{
+    height: 300 px;  
+}
+.slike{
+    /*backdrop-filter: blur(5px);*/
+}
+.san {
+    position: relative;
+    background-color: none;
+    left: 50%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkgrey;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:#aef;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
