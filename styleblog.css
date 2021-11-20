@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .zaglavlje{
@@ -24,18 +25,20 @@ body{
     height: 100vh;
     font-family: sans-serif;
     /*background: linear-gradient(rgb(56, 42, 255), rgb(20, 250, 135));*/
-    background-image: url("img/slikaMojPredlog.jpg");
+    background-image: url("img/slikaMojPredlog2.jpg");
     background-repeat:  no-repeat;
     background-position: center;
     background-size: cover;
     
     /*blur*/
     backdrop-filter: blur(5px);
-    backdrop-filter: brightness(25%);
+    
 }
-
+li {
+    list-style: none;
+}
 .kartice{
-    width: 1600px;
+    
     margin: 0 auto;
     padding: 5% 5%;
     
@@ -98,6 +101,35 @@ body{
 .slike:hover  .slikablur{
 
     filter: blur(0px);}
+
+    .navigacija ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: darkgrey;
+      }
+      .navigacija li {
+        float: left;
+      }
+      
+      .navigacija li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .navigacija li a:hover:not(.active) {
+        color: #ffffff;
+        transform: scale(1.2);
+        transition: all 200ms ease-in !important;
+      }
+      
+      .navigacija .active {
+        background-color: #04aa6d;
+      }
     
 
 
