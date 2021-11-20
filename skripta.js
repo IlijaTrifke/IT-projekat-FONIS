@@ -33,7 +33,7 @@ window.onload = function() {
 	//dodaje task u to do listu
 	function addTodoItem() {
 		if(input.value === "") {
-			alert("Unesi neku vrednost!");
+			alert("Unesite stavku!");
 		}
 		else {
 			if(list.style.borderTop === "") {
