@@ -67,4 +67,33 @@ body{
     
 }
 
+.navigacija ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+  }
+  .navigacija li {
+    float: left;
+  }
+  
+  .navigacija li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navigacija li a:hover:not(.active) {
+    color: #ffffff;
+    transform: scale(1.2);
+    transition: all 200ms ease-in !important;
+  }
+  
+  .navigacija .active {
+    background-color: #04aa6d;
+  }
+
 
