@@ -19,19 +19,14 @@
     font-size: 1.3rem;
   }
   
-  .todoapp {
-    position: absolute;
-    padding: 10%;
-  
-
-    top: 50px;
-    bottom: 0;
+  .todoappl {
+    margin-top: 1%;
     
   }
   .container {
     top: 30%;
     position: center;
-    padding: 10%;
+    padding: 15%;
     width: 80%;
 
     color: aliceblue;

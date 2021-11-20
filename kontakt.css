@@ -65,6 +65,7 @@ img{
     margin-left: auto;
 }
 .section-title{
+    position: center;
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 80px;
@@ -241,6 +242,9 @@ margin-bottom: 0;
   }
 li{
     list-style: none;
+}
+#naslov{
+    position: center;
 }
 /* Mobile Responsive */
 
